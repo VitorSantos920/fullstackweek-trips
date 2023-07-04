@@ -22,7 +22,7 @@ model Trip {
   imagesURL    String[]
   highlights   String[]
   maxGuests    Int
-  reservations TripReservation[]
+  reservations TripReservation[] // Sinaliza que a viagem tem várias reservas
 }
 
 model TripReservation {
